@@ -1,8 +1,5 @@
 <?php
-	##### CONFIG #####
-		$ClientID = '';
-	##### CONFIG #####
-
+	require_once 'config.php';
 	require_once 'class/Soundcloud.php';
 
 	if(!empty($ClientID) && !empty($_GET['url']))
