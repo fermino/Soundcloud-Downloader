@@ -19,4 +19,4 @@
 		}
 	}
 
-	exit('Error');
+	exit('error');
